@@ -13,6 +13,7 @@ public class OfyService {
      * This static block ensure the entity registration.
      */
     static {
+        // factory().register(Conference.class);
         factory().register(Profile.class);
     }
 
